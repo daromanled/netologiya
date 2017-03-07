@@ -1,0 +1,50 @@
+{
+    "dishes" : 
+    [    
+    {
+        "name_of_dish" : "omlette",
+        "ingridients_number" : 4,
+        "ingridients" : 
+        [
+            {
+            "ingridient_name" : "eggs",
+            "ingridient_count" : 2,
+            "ingridient_measure" : "sht"
+            },
+            {
+                "ingridient_name" : "carrot",
+                "ingridient_count" : 1,
+                "ingridient_measure" : "sht"
+            },
+            {
+                "ingridient_name" : "cheese",
+                "ingridient_count" : 20,
+                "ingridient_measure" : "gr"                
+            },
+            {
+                "ingridient_name" : "salt",
+                "ingridient_count" : 1,
+                "ingridient_measure" : "spoon"                
+            }
+        ]
+    },
+    
+    {
+        "name_of_dish" : "fish",
+        "ingridients_number" : 2,
+        "ingridients" : 
+        [
+            {
+            "ingridient_name" : "tunec",
+            "ingridient_count" : 1,
+            "ingridient_measure" : "sht"
+            },
+            {
+            "ingridient_name" : "pepper",
+            "ingridient_count" : 3,
+            "ingridient_measure" : "gr"
+            }
+        ]
+    }
+    ]
+}
