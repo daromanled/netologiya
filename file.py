@@ -1,12 +1,11 @@
-import codecs
 import json
 
 def create_cook_book(name_of_file):  
-    with codecs.open(name_of_file, encoding="utf-8") as products:
-        for list_dish in products[dishes]: 
+    cook_book = {}
+    with open(name_of_file, encoding="utf-8") as products:
+        for list_dish in json.load(products)['dishes']: 
             dish = list_dish['name_of_dish']
             cook_book[dish] = list_dish['ingridients']
-        print(cook_book)
         return cook_book
             
 def get_shop_list_by_dishes(cook_book, dishes, person_count):
